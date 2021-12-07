@@ -9,6 +9,11 @@ function getTranslationUrl(text) {
     return serverURL + "?" + "text=" + text
 }
 
+functionerrorHandler(error){
+    console.log("error occured".error);
+    alert("something wrong with server:try again after some time")
+}
+
 function clickHandler() {
 
     var inputText = txtInput.value; //taking input
